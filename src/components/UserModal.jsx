@@ -7,7 +7,7 @@ export default function UserModal({ user, onClose }) {
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <h2>{user.lastName} {user.firstName} {user.maidenName}</h2>
             <button onClick={onClose}>
-                <img src="/images/icon_close.png" alt="Закрыть" style={{width: '35px'}}/>
+                <img src="./images/icon_close.png" alt="Закрыть" style={{width: '35px'}}/>
             </button>
         </div>
         <p>Возраст: {user.age}</p>
