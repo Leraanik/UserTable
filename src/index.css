@@ -1,0 +1,64 @@
+body{
+  background: #ecebed;
+}
+
+.blockSearch{
+    display: flex;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 300px;
+    padding: 3px;
+}
+.imgSearch{
+  width: 25px;
+  height: 25px;
+}
+.inputSearch{
+  border: none;
+  width: 100%;
+  background: #ecebed;
+}
+.blockPages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.buttonPage{
+  border: none;
+  background: none;
+}
+.blockModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockModal p{
+  border-bottom: 1px solid #d4d0d6;
+}
+.blockModal button{
+  border: none;
+  background: none;
+}
+.blockSort select{
+    width: 150px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background: #ecebed;
+}
+tr{
+  border-bottom: 1px solid #808080;
+}
+td{
+  padding: 12px 8px;
+  text-align: center;
+}
