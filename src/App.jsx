@@ -39,7 +39,7 @@ export default function App() {
       <h1>Пользователи</h1>
       {error && <p style={{ color: 'red' }}>Ошибка: {error}</p>}
       <div className='blockSearch'>
-        <img src="./images/icon_search.svg" alt="иконка поиска" className='imgSearch'/>
+        <img src="/images/icon_search.svg" alt="иконка поиска" className='imgSearch'/>
         <input
           type="text"
           placeholder="Поиск по ФИО, email, городу"
@@ -57,11 +57,11 @@ export default function App() {
 
       <div className='blockPages'>
         <button disabled={page === 1} onClick={() => setPage(p => p - 1)} className='buttonPage'>
-          <img src="./images/icon_arrowLeft.png" alt="стрелка назад" />
+          <img src="/images/icon_arrowLeft.png" alt="стрелка назад" />
         </button>
         <span style={{ margin: '0 10px' }}>Страница {page}</span>
         <button onClick={() => setPage(p => p + 1)} className='buttonPage'>
-          <img src="./images/icon_arrowRight.png" alt="стрелка вперед" />
+          <img src="/images/icon_arrowRight.png" alt="стрелка вперед" />
         </button>
       </div>
     </div>
